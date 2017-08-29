@@ -8,6 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
+            "preLaunchTask": "tsc",
             "program": "${workspaceRoot}/src/index.ts",
             "outFiles": [
                 "${workspaceRoot}/dist/**/*.js"
